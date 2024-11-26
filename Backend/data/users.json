@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Principal",
+    "email": "principal@example.com",
+    "password": "principal",
+    "role": "Principal"
+  },
+  {
+    "id": 2,
+    "name": "Teacher1",
+    "email": "teacher1@example.com",
+    "subject": "Maths",
+    "password": "teacher",
+    "role": "Teacher"
+  },
+  {
+    "id": 3,
+    "name": "Teacher2",
+    "email": "teacher2@example.com",
+    "subject": "Science",
+    "password": "teacher",
+    "role": "Teacher"
+  },
+  {
+    "id": 4,
+    "name": "Student1",
+    "email": "student1@example.com",
+    "classroom": "A",
+    "password": "student1",
+    "role": "Student"
+  },
+  {
+    "id": 5,
+    "name": "Student2",
+    "email": "student2@example.com",
+    "classroom": "A",
+    "password": "student2",
+    "role": "Student"
+  }
+]

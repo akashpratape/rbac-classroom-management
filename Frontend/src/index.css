@@ -1,0 +1,254 @@
+/* login page styling */
+.login-container {
+    width: 30vw;
+    height: 70vh;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+  
+/* Heading Styling */
+.login-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+  
+/* Email Container */
+.email-container, .password-container {
+    width: 90%;
+    margin-bottom: 20px;
+}
+  
+/* Label Styling */
+.email-txt, .pass-txt {
+    display: block;
+    font-size: 0.9rem;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+  
+/* Input Fields */
+.ip-field-email, .pass-ip-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1.5px solid #b0bec5;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.ip-field-email:focus, .pass-ip-field:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.3);
+    outline: none;
+}
+  
+  /* Button Styling */
+.login-btn {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+.login-btn:hover {
+    background-color: #004d40;
+    transform: translateY(-2px);
+  }
+  
+  .login-btn:active {
+    transform: translateY(0);
+}
+  
+  /* Error Message */
+p {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: center;
+}
+  
+/* Mobile Responsiveness for login page*/
+@media (max-width: 768px) {
+    .login-container {
+      width: 80vw;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .login-heading {
+      font-size: 1.8rem;
+    }
+  
+    .login-btn {
+      font-size: 0.9rem;
+    }
+}
+  
+
+
+
+
+/* main pages styling */
+.heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; 
+}
+  
+form div {
+    margin-bottom: 15px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+  
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 2%;
+}
+  
+button:hover {
+    background-color: #0056b3; 
+}
+  
+/* General container styles */
+div {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+  
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+  
+h2 {
+    margin-bottom: 20px;
+    color: #555;
+}
+  
+/* Section styles */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+form div {
+    margin-bottom: 15px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+  
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+table thead {
+    background-color: #007BFF;
+    color: white;
+}
+  
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+  
+/* Responsive design for main pages */
+@media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+    
+    table th, table td {
+      padding: 8px;
+    }
+  }
+  
